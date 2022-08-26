@@ -17,16 +17,21 @@
 
       <!-- counters -->
       <div class="max-w-md mx-auto mt-10 space-y-5">
-        <div
-          class="p-4 h-auto flex flex-col items-center justify-center space-y-5 bg-white rounded shadow"
-        >
-          <div class="text-2xl font-semibold">0</div>
-          <div class="flex space-x-3">
-            <button class="bg-indigo-400 text-white px-3 py-2 rounded shadow">
-              Increment
+        <div id="root"></div>
+
+        <div class="max-w-md mx-auto mt-10 space-y-5">
+          <div class="p-4 h-auto flex flex-row items-center justify-end">
+            <button
+              class="bg-green-600 text-white px-3 mx-2 py-2 rounded shadow"
+              id="add-counter"
+            >
+              Add counter
             </button>
-            <button class="bg-red-400 text-white px-3 py-2 rounded shadow">
-              Decrement
+            <button
+              class="bg-red-400 text-white px-3 py-2 rounded shadow"
+              id="reset"
+            >
+              Reset counter
             </button>
           </div>
         </div>
